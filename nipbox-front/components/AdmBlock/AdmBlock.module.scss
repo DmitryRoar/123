@@ -1,0 +1,15 @@
+.admBlock {
+	width: auto;
+	box-sizing: border-box;
+	padding: 24px 16px;
+
+	background: #ffffff;
+
+	box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
+	border-radius: 4px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: baseline;
+	align-items: baseline;
+}

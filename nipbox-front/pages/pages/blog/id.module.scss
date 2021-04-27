@@ -1,0 +1,63 @@
+@font-face {
+	font-family: 'Arial';
+	src: url('/fonts/Arial') format('ttf');
+	font-weight: 400;
+	font-style: normal;
+}
+
+.container-flex {
+  flex-direction: column;
+}
+
+.wrap {
+  font-family: 'Arial', sans-serif;
+  padding-left: 0;
+  padding-right: 0;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.img {
+  margin: 35px 0;
+
+  img {
+    width: 340px;
+    height: 410px;
+    object-fit: cover;
+  }
+}
+
+.headline {
+  overflow: hidden;
+
+  h3 {
+    font-size: 78px !important;
+    font-weight: 700 !important;
+  }
+}
+
+.desc {
+  width: 79%;
+  h3 {
+    width: 90%;
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 1640px) {
+  .headline {
+    margin: 38px 0;
+  }
+}
+
+@media screen and (max-width: 1196px) {
+  .wrap {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .desc {
+    width: 100%;
+  }
+}

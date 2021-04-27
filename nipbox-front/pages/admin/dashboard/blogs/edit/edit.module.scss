@@ -1,0 +1,48 @@
+.controls {
+  margin: 20px 0 0 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.alert {
+  margin: 10px 0 0 0;
+  background: red;
+  color: #fff;
+  padding: 10px 0 10px 10px;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  flex-direction: column;
+}
+
+.media {
+  width: 220px;
+  height: 200px;
+
+  &-mg {
+    margin: 30px 0 0 0;
+  }
+}
+
+.form {
+  margin-bottom: 20px;
+}
+
+.select {
+  padding-bottom: 6px;
+  padding-top: 25px;
+  width: 304px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid #d3d8dd;
+  font-size: 18px;
+  outline: none;
+  color: #323c47;
+}

@@ -1,0 +1,54 @@
+.order {
+    .orderText {
+        font-size: 16px;
+    }
+
+    .data {
+        margin: 10px;
+    }
+
+    .title {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .adress {
+        max-width: 450px;
+        font-weight: 600;
+    }
+
+    .items {
+        margin-left: 10px;
+        margin-top: 20px;
+        .item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: row;
+            margin-bottom: 20px;
+            width: 400px;
+            .name {
+                font-size: 16px;
+                width: 200px;
+            }
+
+            .amount {
+                font-size: 16px;
+            }
+        }
+    }
+
+    .deliveryData {
+        margin-left: 10px;
+
+        font-size: 16px;
+
+        .deliveryItem {
+            margin-bottom: 10px;
+        }
+    }
+
+    .btns {
+        margin-top: 40px;
+    }
+}

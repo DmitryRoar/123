@@ -1,0 +1,54 @@
+.inp {
+	margin-bottom: 20px;
+}
+
+.media {
+	.main {
+		margin-left: 10px;
+	}
+}
+
+.slider {
+	margin-top: 20px;
+
+	.slides {
+		width: 300px;
+
+		height: 200px;
+
+		overflow: hidden;
+		overflow-x: scroll;
+		.content {
+			width: max-content;
+			display: flex;
+			align-items: center;
+			justify-content: left;
+
+			.imgContainer {
+				position: relative;
+				img {
+					width: 150px;
+					height: 150px;
+
+					margin-right: 20px;
+
+					border: 1px solid black;
+				}
+
+				.remove {
+					width: 20px;
+					height: 20px;
+					background: red;
+
+					z-index: 2;
+
+					cursor: pointer;
+				}
+			}
+		}
+	}
+}
+
+.btn {
+	margin-top: 40px;
+}

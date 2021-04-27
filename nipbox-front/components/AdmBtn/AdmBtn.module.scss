@@ -1,0 +1,59 @@
+.admBtn {
+	background: #109cf1;
+
+	border: none;
+	box-shadow: 0px 4px 10px rgba(16, 156, 241, 0.24);
+	border-radius: 4px;
+
+	min-width: 160px;
+	color: white;
+
+	padding: 11px 14px;
+
+	box-sizing: border-box;
+
+	height: 42px;
+	border-radius: 4px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	outline: none;
+
+	cursor: pointer;
+
+	font-weight: 600;
+	font-size: 13px;
+
+	text-decoration: none;
+
+	&.secondary {
+		border: 1px solid #109cf1;
+		box-sizing: border-box;
+		border-radius: 4px;
+
+		background: transparent;
+
+		font-weight: 600;
+		font-size: 13px;
+
+		color: #109CF1;
+	}
+
+	&:hover {
+		background: #34aff9;
+		color: white;
+		box-shadow: 0px 8px 16px rgba(52, 175, 249, 0.2);
+	}
+
+	&:focus {
+		background: #098edf;
+		color: white;
+		box-shadow: 0px 2px 6px rgba(9, 142, 223, 0.3);
+	}
+
+	&.loading {
+		background: #c2cfe0;
+	}
+}

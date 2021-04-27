@@ -1,0 +1,20 @@
+{
+  "rfIndex": "105077",
+  "sdek": {
+    "account": "EMscd6r9JnFiQ3bLoyjJY6eM78JrJceI",
+    "password": "PjLZkKBHEiLK3YsjtNrt3TGNG0ahs3kG",
+    "sdekCityId": "44"
+  },
+  "bxb": {
+    "code": "01059",
+    "token": "5ba60edac542f52638f18391ded79f54"
+  },
+  "payments": {
+    "secret": ""
+  },
+  "daDataKey": "bde6fd830f042a16a47b5ff362ff46000a9493b6",
+  "uKassa": {
+    "merchant_id": "754805",
+    "secret": "live_gsYKw9wYY59L45gXvC7-Lt0dkung_8e2z7EJQq-DGoo"
+  }
+}

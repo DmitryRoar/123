@@ -1,0 +1,49 @@
+.rowCatalog {
+	display: grid;
+	grid-template-columns: repeat(4, 292px);
+	// grid-template-rows: 578px;
+	justify-content: space-between;
+
+	column-gap: 60px;
+	row-gap: 80px;
+
+	@media (max-width: 1639px) {
+		grid-template-columns: repeat(4, 230px);
+		column-gap: 60px;
+		row-gap: 80px;
+	}
+
+	@media (max-width: 1200px) {
+		grid-template-columns: repeat(2, 47%);
+		column-gap: 40px;
+		row-gap: 40px;
+	}
+
+	@media (max-width: 768px) {
+		display: flex;
+		justify-content: left;
+		width: max-content;
+
+		row-gap: unset;
+		column-gap: unset;
+	}
+}
+
+@media (max-width: 768px) {
+	.catalogScroll {
+		overflow: hidden;
+		overflow-x: scroll;
+		width: 100vw;
+		padding-bottom: 20px;
+		position: relative;
+		left: -15px;
+		padding-left: 20px;
+
+		-ms-overflow-style: none; /* Internet Explorer 10+ */
+		scrollbar-width: none; /* Firefox */
+
+		&::-webkit-scrollbar {
+			display: none; /* Safari and Chrome */
+		}
+	}
+}
